@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Navigation from './Navigation';
+import ProjectsContent from './ProjectsContent';
 
 class Projects extends Component {
     render() {
         return(
             <div>
                 <Navigation />
-                <h1>Projects Page</h1>
+                <ProjectsContent />
             </div>
         )
     }

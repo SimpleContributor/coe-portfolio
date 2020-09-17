@@ -20,17 +20,37 @@ const StyledWrapper = styled.div`
 
     div.greeting{
         display: flex;
+        width: 100%;
     }
 
     h1{
+        align-self: center;
+        font-size: 3rem;
         margin: 30px 0 30px 30px;
-        width: 50%;
+        width: 75%;
+    }
+
+    h1.intro-pc{
+        display: block;
+
+        @media (max-width: 768px){
+            display: none;
+        }
+    }
+
+    h1.intro-mobile{
+        display: none;
+
+        @media (max-width: 768px){
+            display: block;
+        }
     }
 
     p{
-        margin-left: 30px;
-        padding: 30px 0;
-        width: 65%;
+        font-size: 1.5rem;
+        margin: 0 0 30px 30px;
+        padding: 15px 0;
+        width: 90%;
     }
 
     .project-link,
@@ -57,15 +77,13 @@ const StyledWrapper = styled.div`
     }
 
     div.pixel-portrait{
-        align-items: center;
         display: grid;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end- 3;
+        justify-items: end;
+        width: 25%;
     }
 
     div.pixel-portrait img{
+        
         width: 135px;
     }
 
@@ -79,7 +97,8 @@ function HomeContent() {
             <StyledWrapper>
                 <div className="intro-container">
                     <div className="greeting">
-                        <h1>Welcome to my website!</h1>
+                        <h1 className="intro-pc">Welcome to my website!</h1>
+                        <h1 className="intro-mobile">Welcome!</h1>
                         <div className="pixel-portrait">
                             <img alt="Pixel art portrait of Caleb"
                                 onMouseEnter={() => setIshovered(true)}
