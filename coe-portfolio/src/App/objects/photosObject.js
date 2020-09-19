@@ -4,8 +4,17 @@ import FCCLandingPage from '../components/Images/Projects/FCCLandingPage.png';
 import FCCQuoteMachine from '../components/Images/Projects/FCCQuoteMachine.png'
 import GuessingGame from '../components/Images/Projects/JSGuessGame.png';
 import FCCDrumMachine from '../components/Images/Projects/FCCDrumMachine.png';
+import NodeWeatherApp from '../components/Images/Projects/NodeWeatherApp.png';
 
 const projectPhotos = [
+    {
+        name: "Node Weather Application",
+        id: 6,
+        src: NodeWeatherApp,
+        alt: "",
+        href: "https://coe-weather-application.herokuapp.com/"
+    },
+
     {
         name: "Free Code Camp Drum Machine",
         id: 5,
