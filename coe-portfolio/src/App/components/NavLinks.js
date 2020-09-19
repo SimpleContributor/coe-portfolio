@@ -60,7 +60,7 @@ const NavLinks = ({ open }) => {
             <Link to="/projects" className="nav-links">
                 <li>Projects</li>
             </Link>
-            <Link to="/Contact" className="nav-links">
+            <Link to="/contact" className="nav-links">
                 <li>Contact</li>
             </Link>
         </Ul>

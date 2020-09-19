@@ -113,13 +113,12 @@ function HomeContent() {
                     <p>My name is Caleb. I have been a carpenter for 8 years, but I have always been drawn to development. 
                     Starting in August 2019, I began learning programming. </p>
                 </div>
-                <Link className="project-link" to="/Projects">
+                <Link className="project-link" to="/projects">
                     <div className="button">Projects</div>
                 </Link>
-                <Link className="contact-link" to="/">
+                <Link className="contact-link" to="/contact">
                     <div className="button">Contact</div>
                 </Link>
-                
                 
             </StyledWrapper>
             </>
