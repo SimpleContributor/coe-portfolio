@@ -1,17 +1,20 @@
 {
   "name": "react-express-profile",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal portfolio website. Build with React and Node.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Caleb Coe",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "nodemailer": "^6.4.11"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
