@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f5b5b7f9.chunk.css",
+    "main.js": "/static/js/main.ab8e554f.chunk.js",
+    "main.js.map": "/static/js/main.ab8e554f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a7d8b9f9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a7d8b9f9.js.map",
+    "static/js/2.122e795e.chunk.js": "/static/js/2.122e795e.chunk.js",
+    "static/js/2.122e795e.chunk.js.map": "/static/js/2.122e795e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c40d6240ae8051dc253de02b8483325f.js": "/precache-manifest.c40d6240ae8051dc253de02b8483325f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f5b5b7f9.chunk.css.map": "/static/css/main.f5b5b7f9.chunk.css.map",
+    "static/js/2.122e795e.chunk.js.LICENSE.txt": "/static/js/2.122e795e.chunk.js.LICENSE.txt",
+    "static/media/FCCDrumMachine.png": "/static/media/FCCDrumMachine.40a6f2c5.png",
+    "static/media/FCCLandingPage.png": "/static/media/FCCLandingPage.180fa0e3.png",
+    "static/media/FCCQuoteMachine.png": "/static/media/FCCQuoteMachine.614cc10b.png",
+    "static/media/FCCSurvey.png": "/static/media/FCCSurvey.b07c8d48.png",
+    "static/media/FCCTribute.png": "/static/media/FCCTribute.ce8df2a4.png",
+    "static/media/JSGuessGame.png": "/static/media/JSGuessGame.16a7f83a.png",
+    "static/media/NodeWeatherApp.png": "/static/media/NodeWeatherApp.3f98b66c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7d8b9f9.js",
+    "static/js/2.122e795e.chunk.js",
+    "static/css/main.f5b5b7f9.chunk.css",
+    "static/js/main.ab8e554f.chunk.js"
+  ]
+}
