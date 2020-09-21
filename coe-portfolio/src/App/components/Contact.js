@@ -7,12 +7,14 @@ const ContactWrapper = styled.div`
     background-color: #89be9c;
     display: grid;
     grid-template-rows: 120px 90vh;
-    min-height: 80vh;
+    min-height: 100vh;
     overflow-x: hidden;
-    padding-top: 150px;
+    padding-top: 120px;
     width: 99vw;
 
-    
+    @media (max-width: 768px){
+        min-height: 950px;
+    }
 `
 
 const Contact = () => {

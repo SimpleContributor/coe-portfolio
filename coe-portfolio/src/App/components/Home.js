@@ -8,6 +8,7 @@ const StyledHome = styled.div`
     min-height: 110vh;
     margin: 0;
     padding: 0;
+    padding-top: 120px;
     width: 100vw;
 `
 

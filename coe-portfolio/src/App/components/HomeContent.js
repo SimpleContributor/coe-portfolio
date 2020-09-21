@@ -9,9 +9,15 @@ const StyledWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 200px 200px;
-    margin-top: 120px;
+    
     padding-bottom: 100px;
     width: 100%;
+
+    @media (max-width: 500px){
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 120px 120px;
+    }
+    
 
     div.intro-container{
         grid-column-start: 1;
@@ -28,6 +34,15 @@ const StyledWrapper = styled.div`
         font-size: 3rem;
         margin: 30px 0 30px 30px;
         width: 75%;
+
+        @media (max-width: 768px){
+            width: 220px;
+        }
+
+        @media (max-width: 500px){
+            font-size: 2.4rem;
+            width: 170px;
+        }
     }
 
     h1.intro-pc{
@@ -46,11 +61,35 @@ const StyledWrapper = styled.div`
         }
     }
 
+    div.pixel-portrait{
+        align-items: center;
+        display: grid;
+        justify-items: end;
+        width: 145px;
+
+        @media (max-width: 500px){
+            width: 100px;
+        }
+    }
+
+    div.pixel-portrait img{
+        width: 135px;
+
+        @media (max-width: 500px){
+            width: 90px;
+        }
+    }
+
     p{
         font-size: 1.5rem;
         margin: 0 0 30px 30px;
         padding: 15px 0;
         width: 90%;
+
+        @media (max-width: 500px){
+            font-size: 1.1rem;
+            width: 310px;
+        }
     }
 
     .project-link,
@@ -61,10 +100,16 @@ const StyledWrapper = styled.div`
         color: #000;
         grid-column-start: 1;
         grid-column-end: 2;
-        height: 80%;
+        height: 130px;
         margin-left: 30px;
         text-decoration: none;
-        width: 90%;
+        width: 455px;
+
+        @media (max-width: 500px){
+            height: 100px;
+            justify-items: center;
+            width: 290px;
+        }
     }
 
     div.button{
@@ -74,18 +119,11 @@ const StyledWrapper = styled.div`
         height: 100%;
         justify-items: center;
         width: 100%;
-    }
 
-    div.pixel-portrait{
-        display: grid;
-        justify-items: end;
-        width: 25%;
-    }
-
-    div.pixel-portrait img{
         
-        width: 135px;
     }
+
+    
 
 `
 

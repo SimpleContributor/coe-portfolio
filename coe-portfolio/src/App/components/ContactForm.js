@@ -11,7 +11,6 @@ const FormContainer = styled.div`
 
 
     div.contact-heading{
-        margin: 30px 0;
 
         @media (max-width: 768px){
             width: 80%;
@@ -33,7 +32,7 @@ const FormContainer = styled.div`
         border-radius: 10px;
         display: grid;
         grid-template-rows: 1fr 1fr 2fr 1fr;
-        height: 50%;
+        height: 600px;
         justify-items: center;
         padding: 20px;
         width: 800px;
@@ -130,9 +129,8 @@ class MessageForm extends Component {
             
             <FormContainer>
                 <div className="contact-heading">
-                      <h1>Want to tell me a secret?</h1>
-                      <p>Fill out this form to send me an email! (<u>Work in Progress</u>)</p>
-                     <p>Or send one directly to calebcoecode@gmail.com.</p>
+                      <h1>Want to contact me directly?</h1>
+                      <p>Fill out this form to send me an email!</p>
                 </div>
                 <form action="submit" className="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                       <div className="contact-name"> 
