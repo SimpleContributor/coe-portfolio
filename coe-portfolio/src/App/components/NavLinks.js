@@ -30,8 +30,8 @@ const Ul = styled.ul`
         align-items: center;
         background-color: #62a87c;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 120px);
-        height: 99vh;
+        grid-template-rows: repeat(3, 80px);
+        min-height: 500px;
         justify-items: center;
         padding-top: 3.5rem;
         position: fixed;
@@ -44,7 +44,7 @@ const Ul = styled.ul`
 
         li {
             color: #000;
-            font-size: 3rem;
+            font-size: 1.5rem;
             z-index: 20;
         }
     }

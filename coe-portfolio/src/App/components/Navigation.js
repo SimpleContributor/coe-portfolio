@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from './Images/c-logo.png';
+import Logo from './Images/028_c-logo.png';
 import BurgerLinks from './BurgerLinks';
 import styled from 'styled-components';
 
