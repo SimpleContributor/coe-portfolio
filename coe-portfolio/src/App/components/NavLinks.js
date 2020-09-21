@@ -28,12 +28,12 @@ const Ul = styled.ul`
 
     @media (max-width: 768px) {
         align-items: center;
-        background-color: #62a87c;
+        background-color: #6998B5;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 80px);
         min-height: 500px;
         justify-items: center;
-        padding-top: 3.5rem;
+        padding-top: 36px;
         position: fixed;
         right: 0;
         top: 0;

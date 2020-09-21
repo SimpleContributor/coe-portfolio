@@ -4,13 +4,13 @@ import Navigation from './Navigation';
 import ContactForm from './ContactForm';
 
 const ContactWrapper = styled.div`
-    background-color: #89be9c;
+    background-color: #8eb1c7;
     display: grid;
     grid-template-rows: 120px 90vh;
     min-height: 100vh;
     overflow-x: hidden;
     padding-top: 120px;
-    width: 99vw;
+    width: 100vw;
 
     @media (max-width: 768px){
         min-height: 950px;

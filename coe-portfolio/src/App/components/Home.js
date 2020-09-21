@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import HomeContent from './HomeContent';
 
 const StyledHome = styled.div`
-    background-color: #89be9c;
+    background-color: #8eb1c7;
     min-height: 110vh;
     margin: 0;
     padding: 0;

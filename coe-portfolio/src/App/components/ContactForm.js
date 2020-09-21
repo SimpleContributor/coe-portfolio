@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const FormContainer = styled.div`
 
-    background-color: #89BE9C;
+    background-color: #8eb1c7;
     display: grid;
     grid-template-rows: auto 1000px;
     min-width: 98%;
@@ -28,7 +28,7 @@ const FormContainer = styled.div`
 
 
     form.contact-form{
-        background-color: #62a87c;
+        background-color: #C1BFB5;
         border-radius: 10px;
         display: grid;
         grid-template-rows: 1fr 1fr 2fr 1fr;
@@ -59,7 +59,7 @@ const FormContainer = styled.div`
 
     input,
     textarea{
-        background-color: #70e0ff;
+        background-color: #8eb1c7;
         border: 1px solid #000;
         border-radius: 8px;
         box-sizing: border-box;
@@ -76,7 +76,7 @@ const FormContainer = styled.div`
 
     div.submit-button button{
         align-self: end;
-        background-color: #70e0ff;
+        background-color: #8eb1c7;
         border: 1.5px solid #000;
         border-radius: 8px;
         cursor: pointer;

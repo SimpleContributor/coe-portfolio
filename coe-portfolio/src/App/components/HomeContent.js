@@ -5,7 +5,7 @@ import Portrait from './Images/portrait-small.png';
 import PortraitGif from './Images/portrait-small-gif.gif';
 
 const StyledWrapper = styled.div`
-    background-color: #89be9c;
+    background-color: #8eb1c7;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 200px 200px;
@@ -94,7 +94,7 @@ const StyledWrapper = styled.div`
 
     .project-link,
     .contact-link{
-        background-color: #99e9ff;
+        background-color: #eb4511;
         border: 2px solid black;
         border-radius: 10px;
         color: #000;
