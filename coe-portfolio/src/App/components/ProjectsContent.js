@@ -12,15 +12,16 @@ const ProjectContainer = styled.div`
     justify-items: center;
     justify-self: center;
     margin-top: 180px;
-    min-height: 130vh;
     padding-bottom: 100px;
 
     @media(max-width: 1200px){
          grid-template-columns: repeat(2, 350px);
+         grid-template-rows: repeat(4, 350px);
     }
         
     @media(max-width: 768px){
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 350px);
     }
 
 

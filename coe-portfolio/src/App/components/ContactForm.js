@@ -7,8 +7,11 @@ const FormContainer = styled.div`
     display: grid;
     grid-template-rows: auto 1000px;
     min-width: 98%;
-    padding-left: 10%;
+    margin-left: 60px;
 
+    @media (max-width: 768px){
+        margin-left: 30px;
+    }
 
     div.contact-heading{
 

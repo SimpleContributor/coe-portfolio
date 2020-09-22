@@ -32,7 +32,7 @@ const StyledWrapper = styled.div`
     h1{
         align-self: center;
         font-size: 3rem;
-        margin: 30px 0 30px 30px;
+        margin: 30px 0 30px 60px;
         width: 75%;
 
         @media (max-width: 768px){
@@ -41,6 +41,7 @@ const StyledWrapper = styled.div`
 
         @media (max-width: 500px){
             font-size: 2.4rem;
+            margin-left: 30px;
             width: 170px;
         }
     }
@@ -82,32 +83,33 @@ const StyledWrapper = styled.div`
 
     p{
         font-size: 1.5rem;
-        margin: 0 0 30px 30px;
+        margin: 0 0 30px 60px;
         padding: 15px 0;
         width: 90%;
 
         @media (max-width: 500px){
             font-size: 1.1rem;
+            margin-left: 30px;
             width: 310px;
         }
     }
 
     .project-link,
     .contact-link{
-        background-color: #eb4511;
+        background-color: #E68860;
         border: 2px solid black;
         border-radius: 10px;
         color: #000;
         grid-column-start: 1;
         grid-column-end: 2;
         height: 130px;
-        margin-left: 30px;
+        margin-left: 60px;
         text-decoration: none;
         width: 455px;
 
         @media (max-width: 500px){
             height: 100px;
-            justify-items: center;
+            margin-left: 30px;
             width: 290px;
         }
     }
@@ -148,8 +150,12 @@ function HomeContent() {
                         
                     </div>
                     
-                    <p>My name is Caleb. I have been a carpenter for 8 years, but I have always been drawn to development. 
-                    Starting in August 2019, I began learning programming. </p>
+                    <p>My name is Caleb Coe. I have done carpentry for 8 years, but programming is something that has 
+                        been on the back of my mind for quite some time. Around August 2019 I decided to make learning 
+                        how to program a priority. I stumbled across the website freeCodeCamp.org, and started learning 
+                        the basics of HTML and CSS. After a month of that I mixed in JavaScript. Since then I have been 
+                        learning and practicing front-end and back-end development. Some of my work can be seen by 
+                        clicking the Projects button. Click the Contact button and fill out the form to get in touch with me.</p>
                 </div>
                 <Link className="project-link" to="/projects">
                     <div className="button">Projects</div>

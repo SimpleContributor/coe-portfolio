@@ -2,16 +2,22 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Navigation from './Navigation';
 import ProjectsContent from './ProjectsContent';
+import Footer from './Footer';
 
 const ProjectsWrapper = styled.div`
     background-color: #8eb1c7;
     display: grid;
-    max-width: 100vw;
-    min-height: 100vh;
+    width: 100vw;
+    min-height: 1600px;
     overflow-x: hidden;
-    position: relative;
+    
+    @media (max-width: 1200px){
+        min-height: 2000px;
+    }
 
-
+    @media (max-width: 768px){
+        min-height: 3100px;
+    }
 `
 
 class Projects extends Component {
@@ -20,6 +26,7 @@ class Projects extends Component {
             <ProjectsWrapper>
                 <Navigation />
                 <ProjectsContent />
+                <Footer />
             </ProjectsWrapper>
         )
     }

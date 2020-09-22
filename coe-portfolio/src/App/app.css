@@ -2,4 +2,5 @@ body{
     color: #151316;
     margin: 0;
     overflow-x: hidden;
+    position: relative;
 }
