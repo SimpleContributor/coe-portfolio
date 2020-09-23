@@ -7,6 +7,7 @@ import styled from 'styled-components';
 const StyledNav = styled.div`
     align-items: center;
     background-color: #6998B5;
+    border-bottom: 2px solid black;
     display: grid;
     grid-template-columns: 120px auto;
     height: 120px;

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edf8b78e5569bab5c733236c7199b37b",
+    "revision": "695366bd162b04f94b04cd8fa6f07dc1",
     "url": "/index.html"
   },
   {
-    "revision": "ab7bfe8f8693d5ec9ef8",
+    "revision": "5f36a867fa5baabfd897",
     "url": "/static/css/main.f28af0b1.chunk.css"
   },
   {
-    "revision": "72d18e51063aa1032b56",
-    "url": "/static/js/2.89fc6b96.chunk.js"
+    "revision": "a6501afa5b2d391c3bb1",
+    "url": "/static/js/2.6c3f017d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.89fc6b96.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6c3f017d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab7bfe8f8693d5ec9ef8",
-    "url": "/static/js/main.b5688815.chunk.js"
+    "revision": "5f36a867fa5baabfd897",
+    "url": "/static/js/main.6d298919.chunk.js"
   },
   {
     "revision": "697826e0b7f446903264",
@@ -50,5 +50,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3f98b66c89d3fbd0c3007e74f6d33e60",
     "url": "/static/media/NodeWeatherApp.3f98b66c.png"
+  },
+  {
+    "revision": "43650f1db9a6989ae4ec0b8708316bbb",
+    "url": "/static/media/github.43650f1d.png"
+  },
+  {
+    "revision": "14387d7b485b591e6b4a04bdaf7c80f5",
+    "url": "/static/media/linkedin.14387d7b.png"
+  },
+  {
+    "revision": "95f1fcac41d659a2e7224c9fce83e919",
+    "url": "/static/media/twitter.95f1fcac.png"
   }
 ]);
