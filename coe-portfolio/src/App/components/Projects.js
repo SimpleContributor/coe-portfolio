@@ -16,7 +16,7 @@ const ProjectsWrapper = styled.div`
     }
 
     @media (max-width: 768px){
-        min-height: 3100px;
+        min-height: 3200px;
     }
 `
 

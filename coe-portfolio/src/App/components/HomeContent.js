@@ -9,13 +9,14 @@ const StyledWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 200px 200px;
-    
+    line-height: 1.6;
     padding-bottom: 100px;
     width: 100%;
 
     @media (max-width: 500px){
         grid-template-columns: 1fr;
         grid-template-rows: auto 120px 120px;
+        line-height: 1.8;
     }
     
 

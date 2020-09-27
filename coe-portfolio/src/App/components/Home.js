@@ -6,14 +6,14 @@ import Footer from './Footer';
 
 const StyledHome = styled.div`
     background-color: #8eb1c7;
-    min-height: 1200px;
+    min-height: 1300px;
     margin: 0;
     padding: 0;
     padding-top: 120px;
     width: 100vw;
 
     @media (max-width: 500px){
-        min-height: 1000px;
+        min-height: 1100px;
     }
 `
 

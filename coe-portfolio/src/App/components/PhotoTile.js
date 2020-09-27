@@ -3,10 +3,13 @@ import styled from 'styled-components';
 
 const StyledTile = styled.div`
     border-radius: 10px;
+    
     padding: 10px;
 
     a{
         color: #000;
+        display: grid;
+        justify-items: center;
         text-decoration: none;
     }
 
@@ -15,10 +18,15 @@ const StyledTile = styled.div`
         border-radius: 10px;
         cursor: pointer;
         height: 300px;
+
+        @media(max-width: 500px){
+            height: 250px;
+            
+        }
     }
 
     p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
