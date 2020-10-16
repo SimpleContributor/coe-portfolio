@@ -13,7 +13,7 @@ const StyledHome = styled.div`
     width: 100vw;
 
     @media (max-width: 500px){
-        min-height: 1100px;
+        min-height: 1200px;
     }
 `
 
