@@ -5,8 +5,17 @@ import FCCQuoteMachine from '../components/Images/Projects/FCCQuoteMachine.png'
 import GuessingGame from '../components/Images/Projects/JSGuessGame.png';
 import FCCDrumMachine from '../components/Images/Projects/FCCDrumMachine.png';
 import NodeWeatherApp from '../components/Images/Projects/NodeWeatherApp.png';
+import NMTaxCalc from '../components/Images/Projects/NMTaxCalculator.png';
 
 const projectPhotos = [
+    {
+        name: "JavaScript NM Tax Calculator",
+        id: 7,
+        src: NMTaxCalc,
+        alt: "",
+        href: "https://simplecontributor.github.io/tax-calculator/"
+    },
+
     {
         name: "Node Weather Application",
         id: 6,
