@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c61d740edf502b8565d8a94d701cb08",
+    "revision": "bfba0f3ab3a56d51f9107fae7f64ac29",
     "url": "/index.html"
   },
   {
-    "revision": "7c7cac6b67449ce331a3",
+    "revision": "8dd92fce34a2d9c0793a",
     "url": "/static/css/main.f28af0b1.chunk.css"
   },
   {
-    "revision": "a6501afa5b2d391c3bb1",
-    "url": "/static/js/2.6c3f017d.chunk.js"
+    "revision": "ef722f184e2315497daf",
+    "url": "/static/js/2.54068087.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.6c3f017d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.54068087.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c7cac6b67449ce331a3",
-    "url": "/static/js/main.f1fc3bc7.chunk.js"
+    "revision": "8dd92fce34a2d9c0793a",
+    "url": "/static/js/main.193567a6.chunk.js"
   },
   {
     "revision": "697826e0b7f446903264",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "16a7f83a594aad3badae8b51f06311f9",
     "url": "/static/media/JSGuessGame.16a7f83a.png"
+  },
+  {
+    "revision": "cd2cbdbf8a70aea4305987eb13897fd9",
+    "url": "/static/media/NMTaxCalculator.cd2cbdbf.png"
   },
   {
     "revision": "3f98b66c89d3fbd0c3007e74f6d33e60",
