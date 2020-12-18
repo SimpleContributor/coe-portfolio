@@ -25,7 +25,7 @@ const projectPhotos = [
     },
 
     {
-        name: "Free Code Camp Drum Machine",
+        name: "React Drum Machine",
         id: 5,
         src: FCCDrumMachine,
         alt: "",
@@ -41,7 +41,7 @@ const projectPhotos = [
     },
 
     {
-        name: "Free Code Camp Quote Machine",
+        name: "HTML/CSS/JS Quote Machine",
         id: 3,
         src: FCCQuoteMachine,
         alt: "",
@@ -49,7 +49,7 @@ const projectPhotos = [
     },
 
     {
-        name: "Free Code Camp Landing Page",
+        name: "HTML/CSS/JS Landing Page",
         id: 2,
         src: FCCLandingPage,
         alt: "",
@@ -57,7 +57,7 @@ const projectPhotos = [
     },
 
     {
-        name: "Free Code Camp Survey",
+        name: "HTML/CSS/JS Survey",
         id: 1,
         src: FCCSurvey,
         alt: "",
@@ -65,7 +65,7 @@ const projectPhotos = [
     },
 
     {
-        name: "Free Code Camp Tribute",
+        name: "HTML/CSS Tribute Page",
         id: 0,
         src: FCCTribute,
         alt: "",

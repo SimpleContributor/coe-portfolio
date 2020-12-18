@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f28af0b1.chunk.css",
-    "main.js": "/static/js/main.193567a6.chunk.js",
-    "main.js.map": "/static/js/main.193567a6.chunk.js.map",
+    "main.css": "/static/css/main.7322ac7f.chunk.css",
+    "main.js": "/static/js/main.6eaaebd3.chunk.js",
+    "main.js.map": "/static/js/main.6eaaebd3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a7d8b9f9.js",
     "runtime-main.js.map": "/static/js/runtime-main.a7d8b9f9.js.map",
-    "static/js/2.54068087.chunk.js": "/static/js/2.54068087.chunk.js",
-    "static/js/2.54068087.chunk.js.map": "/static/js/2.54068087.chunk.js.map",
+    "static/js/2.edd4a3da.chunk.js": "/static/js/2.edd4a3da.chunk.js",
+    "static/js/2.edd4a3da.chunk.js.map": "/static/js/2.edd4a3da.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ad4d585881d88928b550873cc5c038c.js": "/precache-manifest.8ad4d585881d88928b550873cc5c038c.js",
+    "precache-manifest.0ca76983281401fe91a63c87d7e5ef74.js": "/precache-manifest.0ca76983281401fe91a63c87d7e5ef74.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f28af0b1.chunk.css.map": "/static/css/main.f28af0b1.chunk.css.map",
-    "static/js/2.54068087.chunk.js.LICENSE.txt": "/static/js/2.54068087.chunk.js.LICENSE.txt",
+    "static/css/main.7322ac7f.chunk.css.map": "/static/css/main.7322ac7f.chunk.css.map",
+    "static/js/2.edd4a3da.chunk.js.LICENSE.txt": "/static/js/2.edd4a3da.chunk.js.LICENSE.txt",
+    "static/media/BabyPhoto.jpg": "/static/media/BabyPhoto.8bafcf02.jpg",
     "static/media/FCCDrumMachine.png": "/static/media/FCCDrumMachine.40a6f2c5.png",
     "static/media/FCCLandingPage.png": "/static/media/FCCLandingPage.180fa0e3.png",
     "static/media/FCCQuoteMachine.png": "/static/media/FCCQuoteMachine.614cc10b.png",
@@ -20,14 +21,15 @@
     "static/media/JSGuessGame.png": "/static/media/JSGuessGame.16a7f83a.png",
     "static/media/NMTaxCalculator.png": "/static/media/NMTaxCalculator.cd2cbdbf.png",
     "static/media/NodeWeatherApp.png": "/static/media/NodeWeatherApp.3f98b66c.png",
+    "static/media/React-icon.svg": "/static/media/React-icon.05a3e30f.svg",
     "static/media/github.png": "/static/media/github.43650f1d.png",
     "static/media/linkedin.png": "/static/media/linkedin.14387d7b.png",
     "static/media/twitter.png": "/static/media/twitter.95f1fcac.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a7d8b9f9.js",
-    "static/js/2.54068087.chunk.js",
-    "static/css/main.f28af0b1.chunk.css",
-    "static/js/main.193567a6.chunk.js"
+    "static/js/2.edd4a3da.chunk.js",
+    "static/css/main.7322ac7f.chunk.css",
+    "static/js/main.6eaaebd3.chunk.js"
   ]
 }

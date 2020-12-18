@@ -4,3 +4,17 @@ body{
     overflow-x: hidden;
     position: relative;
 }
+
+body::-webkit-scrollbar{
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;    /* color of the scroll thumb */
+    border-radius: 8px;       /* roundness of the scroll thumb */
+    border: 3px solid black;  /* creates padding around scroll thumb */
+  }
