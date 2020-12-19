@@ -22,12 +22,22 @@ export const FormContainer = styled.div`
 
     .contact-heading h1{
         font-size: 3rem;
+        margin-bottom: 12px;
+        margin-top: 0;
+    }
+
+    .contact-heading p{
+        margin-bottom: 48px;
         margin-top: 0;
     }
 
     .contact-heading p,
     label p{
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    label p{
+        margin-bottom: 10px;
     }
 
 
@@ -66,7 +76,13 @@ export const FormContainer = styled.div`
         width: 100%;
     }
 
+    input{
+        font-size: 32px;
+        height: 60px;
+    }
+
     textarea{
+        font-size: 26px;
         height: 70%;
         resize: none;
     }
@@ -81,8 +97,19 @@ export const FormContainer = styled.div`
         font-size: 1.2rem;
         height: 65px;
         margin-bottom: 10px;
+        margin-top: 48px;
         outline: none;
         width: 100%;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus, 
+    input:-webkit-autofill:active,
+    input:-internal-autofill-selected,
+    input:-internal-autofill-previewed {
+        background-color: #888 !important;
+        -webkit-box-shadow: 0 0 0 30px #888 inset !important;
     }
 
     @media (max-width: 768px) {

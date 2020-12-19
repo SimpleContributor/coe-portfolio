@@ -85,6 +85,16 @@ export const StyledWrapper = styled.div`
         width: 100%;
     }
 
+    .fade-in{
+        animation: fade 1.2s ease-in;
+    }
+
+    @keyframes fade{
+        0%{
+            opacity: 0;
+        }
+    }
+
     @media (max-width: 1000px) {
         .link-container{
             grid-template-columns: 1fr;

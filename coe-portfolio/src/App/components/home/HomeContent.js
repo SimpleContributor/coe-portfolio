@@ -1,19 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { StyledWrapper } from './homeStyle';
 
-function HomeContent() {
-    // const [ishovered, setIshovered] = useState(false);
-
+class HomeContent extends Component {
+    constructor() {
+        super()
+        this.state = {
+            animate: true
+        }
+    }
+    
+    render() {
         return (
             <>
             <StyledWrapper>
                 <div className="intro-container">
-                    <div className="greeting">
+                    <div
+                        className={
+                            this.state.animate ? "greeting fade-in" : "greeting"
+                        }
+                    >
                         <h1 className="intro-pc">Welcome to the website!</h1>
                         <h1 className="intro-mobile">Welcome!</h1>
                     </div>
-                    <div className="paragraph">
+                    <div
+                        className={
+                            this.state.animate ? "paragraph fade-in" : "paragraph"
+                        }
+                    >
                         <p className="intro-container-para intro-pc">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus vestibulum enim 
                             laoreet scelerisque. Aenean lorem ligula, molestie nec nulla non, tempor imperdiet elit. 
@@ -28,7 +42,11 @@ function HomeContent() {
                         </p>
                     </div>
                 </div>
-                <div className="link-container">
+                <div
+                    className={
+                        this.state.animate ? "link-container fade-in" : "link-container"
+                    }
+                >
                     <Link className="project-link" to="/photos">
                         <div className="button">Photos</div>
                     </Link>
@@ -42,6 +60,22 @@ function HomeContent() {
             </StyledWrapper>
             </>
         )
+    }
+
+    componentDidMount() {
+        if(window.sessionStorage.getItem("firstLoadDone") === null) {
+            this.setState({
+                animate: true
+            })
+
+            window.sessionStorage.setItem("firstLoadDone", 1)
+        } else {
+            this.setState({
+                animate: false
+            })
+        }
+    }
+        
 }
 
 export default HomeContent;
