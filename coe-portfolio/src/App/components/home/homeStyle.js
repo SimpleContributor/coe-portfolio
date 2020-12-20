@@ -4,6 +4,7 @@ import styled from 'styled-components';
 export const StyledHome = styled.div`
     background-color: #ccc;
     margin: 0;
+    min-height: 100vh;
     width: 100vw;
 `;
 
@@ -22,6 +23,7 @@ export const StyledWrapper = styled.div`
     .intro-container{
         display: grid;
         justify-items: center;
+        margin-bottom: 60px;
     }
 
 
@@ -111,6 +113,10 @@ export const StyledWrapper = styled.div`
 
     @media (max-width: 768px) {
         padding-bottom: 220px;
+
+        .intro-container{
+            margin-bottom: 0;
+        }
 
         .intro-pc{
             display: none;

@@ -20,7 +20,7 @@ class HomeContent extends Component {
                             this.state.animate ? "greeting fade-in" : "greeting"
                         }
                     >
-                        <h1 className="intro-pc">Welcome to the website!</h1>
+                        <h1 className="intro-pc">Welcome to my website!</h1>
                         <h1 className="intro-mobile">Welcome!</h1>
                     </div>
                     <div
@@ -28,17 +28,9 @@ class HomeContent extends Component {
                             this.state.animate ? "paragraph fade-in" : "paragraph"
                         }
                     >
-                        <p className="intro-container-para intro-pc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus vestibulum enim 
-                            laoreet scelerisque. Aenean lorem ligula, molestie nec nulla non, tempor imperdiet elit. 
-                            Sed in suscipit augue. Aliquam vel malesuada nibh. Aliquam iaculis quam ante, vel 
-                            tempor ligula rutrum id. Duis mattis pharetra suscipit. Integer molestie lorem ac dolor 
-                            convallis iaculis. Mauris nibh urna, blandit sit amet varius quis, tempor non massa.
-                        </p>
-                        <p className="intro-container-para intro-mobile">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus vestibulum enim 
-                            laoreet scelerisque. Aenean lorem ligula, molestie nec nulla non, tempor imperdiet elit. 
-                            Sed in suscipit augue. Aliquam vel malesuada nibh.
+                        <p className="intro-container-para">
+                            Check out some of my work by clicking Projects. If you are interested in my story and who I am, click About.
+                            Get in touch with me directly by clicking Contact and filling out a small form. Go on, click a button!
                         </p>
                     </div>
                 </div>
