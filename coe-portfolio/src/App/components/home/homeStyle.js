@@ -65,20 +65,39 @@ export const StyledWrapper = styled.div`
     }
 
     .project-link{
+        border-radius: 5px;
+        box-shadow: 0 5px #000;
+        border: solid 2px black;
+        cursor: pointer;
+        height: 100%;
+        outline: inherit;
+        width: 100%;
         background-color: #888;
-        border: 2px solid black;
-        border-radius: 10px;
         color: #000;
         height: 125px;
         text-decoration: none;
         width: 250px;
+
+        &:active{
+            opacity: 0.8;
+            box-shadow: 0 3px #000;
+            transform: translateY(4px);
+        }
+
+        &:hover{
+            opacity: 0.8;
+            border-radius: 5px;
+        }
+
+        &:focus{
+            box-shadow: 0 3px #000;
+            opacity: 0.8;
+            outline: inherit;
+            transform: translateY(4px);
+        }
     }
 
-    .project-link:hover{
-        background-color: #666666;
-    }
-
-    div.button{
+    .button{
         align-items: center;
         display: grid;
         font-size: 2rem;
