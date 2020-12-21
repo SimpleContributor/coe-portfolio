@@ -65,7 +65,7 @@ export const StyledWrapper = styled.div`
     }
 
     .project-link{
-        border-radius: 5px;
+        border-radius: 8px;
         box-shadow: 0 5px #000;
         border: solid 2px black;
         cursor: pointer;
@@ -86,7 +86,7 @@ export const StyledWrapper = styled.div`
 
         &:hover{
             opacity: 0.8;
-            border-radius: 5px;
+            border-radius: 8px;
         }
 
         &:focus{

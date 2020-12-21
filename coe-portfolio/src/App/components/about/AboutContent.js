@@ -8,14 +8,30 @@ class AboutContent extends Component {
         return (
             <AboutContainer>
                 <div>
-                <h1>My Mission!</h1>
+                <h1>My Journey</h1>
                     <div className='about-para'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus vestibulum enim 
-                            laoreet scelerisque. Aenean lorem ligula, molestie nec nulla non, tempor imperdiet elit. 
-                            Sed in suscipit augue. Aliquam vel malesuada nibh. Aliquam iaculis quam ante, vel 
-                            tempor ligula rutrum id. Duis mattis pharetra suscipit. Integer molestie lorem ac dolor 
-                            convallis iaculis. Mauris nibh urna, blandit sit amet varius quis, tempor non massa.
+                            My name is Caleb and I have been a carpenter professionally for 8 years. Around August 2019, I began
+                            learning the basics of web development through 
+                            <a className="fcc-anchor" 
+                            href="https://www.freecodecamp.org/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"> Free Code Camp</a>. 
+                            FCC has been useful for learning a lot of the basics of web development, but it was just the beginning.
+                            Before long, I was spending all of my free time learning how to develop. This led me to an intense in-person
+                            learning program called a Coding Bootcamp hosted by
+                            <a className="cult-code-anchor"
+                            href="https://cultivatecoders.com/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"> Cultivating Coders </a> 
+                            in Albuquerque. Attending the bootcamp strengthened my skills in HTML, CSS, Javascript and web design. 
+                            These skills have proven invaluable on my learning adventure.
+                        </p>
+                        <h1>Skill Set</h1>
+                        <p>
+                            The technology I primarily use to build web pages and applications is Javascript. React helps me build 
+                            beautiful, responsive front-ends while Node takes care of the back-end through the framework Express. Here 
+                            are all of the languages and frameworks I currently use:
                         </p>
                     </div>
                 </div>

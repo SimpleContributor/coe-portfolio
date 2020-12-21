@@ -25,6 +25,12 @@ export const AboutContainer = styled.div`
         width: 80%
     }
 
+    .fcc-anchor,
+    .cult-code-anchor{
+        color: #444;
+        text-decoration: none;
+    }
+
     .about-photo{
         display: grid;
         font-size: 1.4rem;
