@@ -31,6 +31,13 @@ export const AboutContainer = styled.div`
         text-decoration: none;
     }
 
+    .language-photos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 80px;
+        margin: 80px 0;
+    }
+
     .about-photo{
         display: grid;
         font-size: 1.4rem;
@@ -45,26 +52,43 @@ export const AboutContainer = styled.div`
 
     @media (max-width: 1000px) {
         grid-template-columns: 1fr;
-        grid-template-rows: 350px 450px;
+        grid-template-rows: auto 450px;
+
+        .language-photos{
+
+        }
 
         .about-photo{
             justify-content: center;
         }
     }
-
-    @media (max-width: 768px) {
-        grid-template-rows: 420px 450px;
-    }
-
-    @media (max-width: 620px) {
-        grid-template-rows: 500px 450px;
-    }
-
-    @media (max-width: 500px) {
-        grid-template-rows: 550px 450px;
-    }
-
-    @media (max-width: 420px) {
-        grid-template-rows: 620px 450px;
-    }
 `;
+
+
+
+
+//// LANGUAGETILE.JS ////
+export const StyledLangTile = styled.div`
+
+    img{
+        height: 150px;
+        
+    }
+
+    p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    @media(max-width: 1000px) {
+        img{
+            height: 100px;
+        }
+    }
+
+    @media(max-width: 500px) {
+        img{
+            height: 80px;
+        }
+    }
+`
