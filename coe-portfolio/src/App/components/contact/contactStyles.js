@@ -91,7 +91,8 @@ export const FormContainer = styled.div`
     button{
         align-self: end;
         background-color: #888;
-        border: 1.5px solid #000;
+        box-shadow: 0 5px #000;
+        border: solid 2px #000;
         border-radius: 8px;
         cursor: pointer;
         font-size: 1.2rem;
@@ -100,6 +101,29 @@ export const FormContainer = styled.div`
         margin-top: 48px;
         outline: none;
         width: 100%;
+
+        &:active{
+            background-color: #bbb;
+            opacity: 0.7;
+            box-shadow: 0 3px #000;
+            transform: translateY(4px);
+        }
+
+        &:hover{
+            background-color: #bbb;
+            opacity: 0.8;
+            border-radius: 8px;
+        }
+
+        &:focus{
+            background-color: #bbb;
+            box-shadow: 0 3px #000;
+            opacity: 0.8;
+            outline: inherit;
+            transform: translateY(4px);
+        }
+
+        transition: background-color 1s, box-shadow 0.3s, opacity 1s, transform 0.3s;
     }
 
     input:-webkit-autofill,

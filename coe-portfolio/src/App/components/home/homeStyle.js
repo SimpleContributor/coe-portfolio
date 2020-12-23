@@ -79,23 +79,30 @@ export const StyledWrapper = styled.div`
         width: 250px;
 
         &:active{
-            opacity: 0.8;
+            background-color: #bbb;
+            opacity: 0.7;
             box-shadow: 0 3px #000;
             transform: translateY(4px);
         }
 
         &:hover{
+            background-color: #bbb;
             opacity: 0.8;
             border-radius: 8px;
         }
 
         &:focus{
+            background-color: #bbb;
             box-shadow: 0 3px #000;
             opacity: 0.8;
             outline: inherit;
             transform: translateY(4px);
         }
+
+        transition: background-color 1s, box-shadow 0.3s, opacity 1s, transform 0.3s;
     }
+
+    
 
     .button{
         align-items: center;

@@ -29,7 +29,7 @@ class HomeContent extends Component {
                         }
                     >
                         <p className="intro-container-para">
-                            Check out some of my work by clicking Projects. If you are interested in my story and who I am, click About.
+                            Check out some of my work by clicking Projects. If you are interested in my story and what I can do, click About.
                             Get in touch with me directly by clicking Contact and filling out a small form. Go on, click a button!
                         </p>
                     </div>

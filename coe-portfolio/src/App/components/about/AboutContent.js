@@ -36,8 +36,8 @@ const AboutContent = () => {
                 <h1>Skill Set</h1>
                 <p>
                     The technology I primarily use to build web pages and applications is Javascript. React helps me build 
-                    beautiful, responsive front-ends while Node takes care of the back-end through the framework Express. Here 
-                    are all of the languages and frameworks I currently use:
+                    beautiful, responsive front-ends while Node takes care of the back-end through the framework Express. These 
+                    are the languages and frameworks I currently use:
                 </p>
                 <div className="language-photos">
                     {renderedList}
