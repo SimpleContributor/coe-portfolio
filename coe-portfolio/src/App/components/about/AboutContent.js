@@ -46,7 +46,7 @@ const AboutContent = () => {
                 
             <div className='about-photo'>
                 <img alt='' src={BabyPhoto}></img>
-                <p>Caleb Coe</p>                
+                <p>Caleb</p>                
             </div>
         </AboutContainer>
     )

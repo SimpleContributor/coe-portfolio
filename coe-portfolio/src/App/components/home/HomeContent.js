@@ -40,7 +40,7 @@ class HomeContent extends Component {
                     }
                 >
                     <Link className="project-link" to="/photos">
-                        <div className="button">Photos</div>
+                        <div className="button">Projects</div>
                     </Link>
                     <Link className="project-link" to="/about">
                         <div className="button">About</div>

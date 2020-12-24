@@ -32,17 +32,27 @@ export const AboutContainer = styled.div`
     }
 
     .language-photos{
+        background-color: #888;
+        border-radius: 8px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-row-gap: 80px;
+        padding-top: 36px;
+        padding-bottom: 24px;
         margin: 80px 0;
     }
 
     .about-photo{
         display: grid;
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         height: 300px;
         justify-content: start;
+        margin-left: 24px;
+        margin-top: 80px;
+    }
+
+    .about-photo p{
+        margin-top: 12px;
     }
 
     img{
@@ -60,6 +70,7 @@ export const AboutContainer = styled.div`
 
         .about-photo{
             justify-content: center;
+            margin: 0;
         }
     }
 `;
