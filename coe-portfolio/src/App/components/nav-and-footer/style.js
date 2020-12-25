@@ -10,12 +10,12 @@ export const StyledNav = styled.div`
     grid-template-columns: 120px auto;
     height: 120px;
     left: 0;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     justify-items: center;
     margin-left: auto;
-
+    z-index: 10;
 
     .logo-img{
         height: 100px;

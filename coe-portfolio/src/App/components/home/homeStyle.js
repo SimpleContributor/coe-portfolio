@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledHome = styled.div`
     background-color: #ccc;
     margin: 0;
-    min-height: 100vh;
+    min-height: 88vh;
     width: 100vw;
 `;
 
@@ -16,7 +16,7 @@ export const StyledWrapper = styled.div`
     justify-items: center;
     display: grid;
     line-height: 1.6;
-    padding: 192px 0 320px 0;
+    padding: 80px 0 200px 0;
     width: 100%;
 
 

@@ -12,7 +12,7 @@ export const StyledAbout = styled.div`
 export const AboutContainer = styled.div`
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 200px 0 120px 0;
+    padding: 80px 0 120px 0;
 
     h1{
         font-size: 3rem;

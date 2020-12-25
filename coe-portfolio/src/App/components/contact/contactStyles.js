@@ -14,7 +14,7 @@ export const FormContainer = styled.div`
     display: grid;
     min-width: 98%;
     justify-content: center;
-    padding: 200px 0 220px 0;
+    padding: 80px 0 220px 0;
 
     .contact-heading{
         text-align: center;

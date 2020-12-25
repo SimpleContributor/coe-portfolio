@@ -26,7 +26,7 @@ export const ProjectContainer = styled.div`
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(3, 400px);
     justify-content: center;
-    padding: 220px 0;
+    padding: 80px 0;
     min-width: 100vw;
 
     @media(max-width: 1200px){
