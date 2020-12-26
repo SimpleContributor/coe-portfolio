@@ -24,9 +24,10 @@ export const StyledNav = styled.div`
 
 //// BURGERLINKS.JS ////
 export const BurgerStyles = css`
+    justify-self: end;
     display: none;
     height: 60px;
-    position: fixed;
+    position: sticky;
     right: 30px;
     top: 30px;
     width: 60px;
@@ -99,12 +100,12 @@ export const UlStyles = css`
         justify-items: center;
         margin-right: 0;
         padding-top: 36px;
-        position: fixed;
+        position: sticky;
         right: 0;
         top: 0;
-        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+        transform: ${({ open }) => open ? 'translateX(75%)' : 'translateX(200%)'};
         transition: transform 0.3s ease-in-out;
-        width: 99vw;
+        width: 110vw;
         z-index: 20;
 
         li {

@@ -37,7 +37,8 @@ export const FormContainer = styled.div`
     }
 
     label p{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        margin-top: 0;
     }
 
 
@@ -47,7 +48,7 @@ export const FormContainer = styled.div`
         display: grid;
         grid-template-rows: 1fr 1fr 2fr 1fr;
         height: 600px;
-        padding: 20px;
+        padding: 30px;
         width: 550px;
     }
 
@@ -58,10 +59,6 @@ export const FormContainer = styled.div`
 
     label{
         width: 100%;
-    }
-
-    label p{
-        padding-bottom: 5px;
     }
 
 
@@ -95,7 +92,7 @@ export const FormContainer = styled.div`
         border: solid 2px #000;
         border-radius: 8px;
         cursor: pointer;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         height: 65px;
         margin-bottom: 10px;
         margin-top: 48px;
@@ -151,6 +148,11 @@ export const FormContainer = styled.div`
         }
         .contact-form{
             width: 280px;
+        }
+
+        input,
+        textarea{
+            font-size: 20px;
         }
     }
 `;

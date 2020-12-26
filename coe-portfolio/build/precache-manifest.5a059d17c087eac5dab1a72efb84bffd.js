@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfba0f3ab3a56d51f9107fae7f64ac29",
+    "revision": "b43f3a461ecfb92ed2c83178c7070d70",
     "url": "/index.html"
   },
   {
-    "revision": "8dd92fce34a2d9c0793a",
-    "url": "/static/css/main.f28af0b1.chunk.css"
+    "revision": "ed746c43fed326480d52",
+    "url": "/static/css/main.6fd2fab3.chunk.css"
   },
   {
-    "revision": "ef722f184e2315497daf",
-    "url": "/static/js/2.54068087.chunk.js"
+    "revision": "6230b1221dbb8ae6f762",
+    "url": "/static/js/2.802b3e90.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.54068087.chunk.js.LICENSE.txt"
+    "revision": "c87550333da8df8ab4c80bd1d6e9defb",
+    "url": "/static/js/2.802b3e90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8dd92fce34a2d9c0793a",
-    "url": "/static/js/main.193567a6.chunk.js"
+    "revision": "ed746c43fed326480d52",
+    "url": "/static/js/main.1e38a528.chunk.js"
   },
   {
     "revision": "697826e0b7f446903264",
     "url": "/static/js/runtime-main.a7d8b9f9.js"
+  },
+  {
+    "revision": "8bafcf0230afa7c911901511661907e4",
+    "url": "/static/media/BabyPhoto.8bafcf02.jpg"
   },
   {
     "revision": "40a6f2c59cf8b332b1a9bd82a4babda7",
@@ -56,12 +60,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NodeWeatherApp.3f98b66c.png"
   },
   {
+    "revision": "05a3e30fdf60ebe9d00cf4725d44bd42",
+    "url": "/static/media/React-icon.05a3e30f.svg"
+  },
+  {
+    "revision": "c26a73b45b9a801864f13edeb0aa2cfb",
+    "url": "/static/media/css_logo.c26a73b4.png"
+  },
+  {
     "revision": "43650f1db9a6989ae4ec0b8708316bbb",
     "url": "/static/media/github.43650f1d.png"
   },
   {
+    "revision": "db7933e6a7f7acaf99a33f39b286974b",
+    "url": "/static/media/js_logo.db7933e6.png"
+  },
+  {
     "revision": "14387d7b485b591e6b4a04bdaf7c80f5",
     "url": "/static/media/linkedin.14387d7b.png"
+  },
+  {
+    "revision": "7247ed4398bb98c44cecd83901b181bd",
+    "url": "/static/media/mongodb_logo.7247ed43.png"
+  },
+  {
+    "revision": "9c4ab2032a71589bb23347e9f9f0564a",
+    "url": "/static/media/node_logo.9c4ab203.png"
+  },
+  {
+    "revision": "638be90904f9f9248d3c69cb2992c562",
+    "url": "/static/media/react_logo.638be909.png"
   },
   {
     "revision": "95f1fcac41d659a2e7224c9fce83e919",
