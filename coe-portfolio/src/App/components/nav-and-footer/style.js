@@ -10,12 +10,15 @@ export const StyledNav = styled.div`
     grid-template-columns: 120px auto;
     height: 120px;
     left: 0;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     width: 100%;
     justify-items: center;
     margin-left: auto;
     z-index: 10;
+
+
 
     .logo-img{
         height: 100px;
@@ -27,7 +30,6 @@ export const BurgerStyles = css`
     justify-self: end;
     display: none;
     height: 60px;
-    position: sticky;
     right: 30px;
     top: 30px;
     width: 60px;
@@ -38,6 +40,8 @@ export const BurgerStyles = css`
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
+
+        
     }
 
     div{
@@ -98,14 +102,11 @@ export const UlStyles = css`
         grid-template-rows: repeat(4, 110px);
         min-height: 500px;
         justify-items: center;
-        margin-right: 0;
+        margin-right: 20px;
         padding-top: 36px;
-        position: sticky;
-        right: 0;
-        top: 0;
-        transform: ${({ open }) => open ? 'translateX(75%)' : 'translateX(200%)'};
+        transform: ${({ open }) => open ? 'translateX(80%)' : 'translateX(-100%)'};
         transition: transform 0.3s ease-in-out;
-        width: 110vw;
+        width: 100vw;
         z-index: 20;
 
         li {
@@ -124,16 +125,17 @@ export const StyledFooter = styled.div`
     border-top: 2px solid black;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     height: 120px;
     left: 0;
-    padding: 16px 60px;
+    padding: 16px 0;
     position: absolute;
-    width: 100vw;
+    width: 100%;
 
     .created-by{
         align-items: center;
         display: grid;
+        margin-left: 20px;
     }
 
     p{
@@ -144,9 +146,11 @@ export const StyledFooter = styled.div`
     .social-links{
         align-items: center;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 100px);
+        grid-column-gap: 200px;
         justify-items: center;
-        margin-right: 100px;
+        justify-self: end;
+        margin-right: 60px;
     }
 
     .social-links img{
@@ -155,6 +159,10 @@ export const StyledFooter = styled.div`
 
     @media (max-width: 1200px){
         grid-template-columns: 1fr 2fr;
+
+        .social-links{
+            grid-column-gap: 120px;
+        }
     }
 
     @media (max-width: 768px){
@@ -165,6 +173,11 @@ export const StyledFooter = styled.div`
         p{
             align-self: center;
             font-size: 1.2rem;
+        }
+
+        .social-links{
+            grid-column-gap: 80px;
+            margin-right: 0;
         }
 
         .social-links img{

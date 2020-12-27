@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const ContactWrapper = styled.div`
     background-color: #ccc;
     overflow-x: hidden;
-    width: 100vw;
+    width: auto;
 `;
 
 
@@ -12,7 +12,6 @@ export const ContactWrapper = styled.div`
 //// CONTACTFORM.JS ////
 export const FormContainer = styled.div`
     display: grid;
-    min-width: 98%;
     justify-content: center;
     padding: 80px 0 220px 0;
 

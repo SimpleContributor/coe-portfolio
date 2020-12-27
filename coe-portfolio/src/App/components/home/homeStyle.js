@@ -5,7 +5,7 @@ export const StyledHome = styled.div`
     background-color: #ccc;
     margin: 0;
     min-height: 88vh;
-    width: 100vw;
+    width: auto;
 `;
 
 

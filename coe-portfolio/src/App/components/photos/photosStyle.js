@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const ProjectsWrapper = styled.div`
     background-color: #ccc;
     display: grid;
-    width: 100vw;
     min-height: 1600px;
     overflow-x: hidden;
     
@@ -27,7 +26,6 @@ export const ProjectContainer = styled.div`
     grid-template-rows: repeat(3, 400px);
     justify-content: center;
     padding: 80px 0;
-    min-width: 100vw;
 
     @media(max-width: 1200px){
          grid-template-columns: repeat(2, 400px);
