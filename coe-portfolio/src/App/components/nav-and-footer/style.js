@@ -103,7 +103,7 @@ export const UlStyles = css`
         grid-template-rows: repeat(4, 110px);
         min-height: 500px;
         justify-items: end;
-        opacity: 0.9;
+        opacity: 0.96;
         padding: 36px;
         transform: ${({ open }) => open ? 'translateX(80%) translateY(-10%)' : 'translateX(-80%) translateY(-10%)'};
         transition: transform 0.3s ease-in-out;

@@ -12,7 +12,7 @@ export const ProjectsWrapper = styled.div`
     }
 
     @media (max-width: 768px){
-        min-height: 3200px;
+        min-height: 3700px;
     }
 `
 
@@ -34,7 +34,7 @@ export const ProjectContainer = styled.div`
         
     @media(max-width: 768px){
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(7, 400px);
+        grid-template-rows: repeat(8, 400px);
     }
 
 
