@@ -8,7 +8,7 @@ export const StyledNav = styled.div`
     border-bottom: 2px solid black;
     display: grid;
     grid-template-columns: 120px auto;
-    height: 120px;
+    height: 100px;
     left: 0;
     position: -webkit-sticky;
     position: sticky;
@@ -30,6 +30,7 @@ export const BurgerStyles = css`
     justify-self: end;
     display: none;
     height: 60px;
+    margin-right: 20px;
     right: 30px;
     top: 30px;
     width: 60px;
@@ -58,8 +59,7 @@ export const BurgerStyles = css`
 
         
         &:nth-child(2) {
-            opacity: ${({ open }) => open ? 0 : 1};
-            transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
+            opacity: ${({ open }) => open ? '0' : '1'};
         }
 
         &:nth-child(3) {
@@ -98,23 +98,38 @@ export const UlStyles = css`
     @media (max-width: 768px) {
         align-items: center;
         background-color: #888;
+        border-radius: 8px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 110px);
         min-height: 500px;
-        justify-items: center;
-        margin-right: 20px;
-        padding-top: 36px;
-        transform: ${({ open }) => open ? 'translateX(80%)' : 'translateX(-100%)'};
+        justify-items: end;
+        opacity: 0.9;
+        padding: 36px;
+        transform: ${({ open }) => open ? 'translateX(80%) translateY(-10%)' : 'translateX(-80%) translateY(-10%)'};
         transition: transform 0.3s ease-in-out;
-        width: 100vw;
+        width: 90vw;
         z-index: 20;
+
+        .nav-links {
+            height: 100px;
+            width: 200px;
+        }
 
         li {
             color: #000;
             font-size: 2rem;
             font-weight: 500;
+            text-align: right;
             z-index: 20;
         }
+    }
+
+    @media(max-width: 600px) {
+        transform: ${({ open }) => open ? 'translateX(70%) translateY(-10%)' : 'translateX(-60%) translateY(-10%)'};
+    }
+
+    @media(max-width: 450px) {
+        transform: ${({ open }) => open ? 'translateX(55%) translateY(-10%)' : 'translateX(-60%) translateY(-10%)'};
     }
 `;
 
@@ -185,13 +200,21 @@ export const StyledFooter = styled.div`
         }
     }
 
+    @media (max-width: 600px) {
+        .social-links{
+            grid-column-gap: 40px;
+        }
+    }
+
     @media (max-width: 500px){
         grid-template-columns: 1fr;
         padding: 16px 0;
 
         .social-links{
+            grid-column-gap: 20px;
+            justify-self: center;
             margin-right: 0;
-            padding-right: 10px;
+            
         }
 
         .created-by p{
