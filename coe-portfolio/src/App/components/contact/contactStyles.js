@@ -15,33 +15,33 @@ export const FormContainer = styled.div`
     justify-content: center;
     padding: 80px 0 220px 0;
 
-    .contact-heading{
+    .contact-heading {
         text-align: center;
     }
 
-    .contact-heading h1{
+    .contact-heading h1 {
         font-size: 3rem;
         margin-bottom: 12px;
         margin-top: 0;
     }
 
-    .contact-heading p{
+    .contact-heading p {
         margin-bottom: 48px;
         margin-top: 0;
     }
 
     .contact-heading p,
-    label p{
+    label p {
         font-size: 1.8rem;
     }
 
-    label p{
+    label p {
         margin-bottom: 15px;
         margin-top: 0;
     }
 
 
-    .contact-form{
+    .contact-form {
         background-color: #aaa;
         border-radius: 10px;
         display: grid;
@@ -51,18 +51,18 @@ export const FormContainer = styled.div`
         width: 550px;
     }
 
-    .contact-form div{
+    .contact-form div {
         display: grid;
         width: 100%;
     }
 
-    label{
+    label {
         width: 100%;
     }
 
 
     input,
-    textarea{
+    textarea {
         background-color: #888;
         border: 1px solid #000;
         border-radius: 8px;
@@ -72,19 +72,19 @@ export const FormContainer = styled.div`
         width: 100%;
     }
 
-    input{
+    input {
         font-size: 32px;
         height: 60px;
     }
 
-    textarea{
+    textarea {
         font-size: 26px;
         height: 70%;
         resize: none;
     }
 
 
-    button{
+    button {
         align-self: end;
         background-color: #888;
         box-shadow: 0 5px #000;
@@ -98,20 +98,20 @@ export const FormContainer = styled.div`
         outline: none;
         width: 100%;
 
-        &:active{
+        &:active {
             background-color: #bbb;
             opacity: 0.7;
             box-shadow: 0 3px #000;
             transform: translateY(4px);
         }
 
-        &:hover{
+        &:hover {
             background-color: #bbb;
             opacity: 0.8;
             border-radius: 8px;
         }
 
-        &:focus{
+        &:focus {
             background-color: #bbb;
             box-shadow: 0 3px #000;
             opacity: 0.8;
@@ -133,24 +133,24 @@ export const FormContainer = styled.div`
     }
 
     @media (max-width: 768px) {
-        .contact-heading{
+        .contact-heading {
             width: 540px;
         }
-        .contact-form{
+        .contact-form {
             width: 500px;
         }
     }
 
     @media (max-width: 580px) {
-        .contact-heading{
+        .contact-heading {
             width: 320px;
         }
-        .contact-form{
+        .contact-form {
             width: 280px;
         }
 
         input,
-        textarea{
+        textarea {
             font-size: 20px;
         }
     }

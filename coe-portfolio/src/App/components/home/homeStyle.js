@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledHome = styled.div`
     background-color: #ccc;
     margin: 0;
-    min-height: 88vh;
+    min-height: 89vh;
     width: auto;
 `;
 
@@ -19,15 +19,13 @@ export const StyledWrapper = styled.div`
     padding: 80px 0 200px 0;
     width: 100%;
 
-
-    .intro-container{
+    .intro-container {
         display: grid;
         justify-items: center;
         margin-bottom: 60px;
     }
 
-
-    h1{
+    h1 {
         align-self: center;
         font-size: 3rem;
         margin-top: 0;
@@ -35,28 +33,28 @@ export const StyledWrapper = styled.div`
         width: 100%;
     }
 
-    .intro-pc{
+    .intro-pc {
         display: block;
         margin-bottom: 0;
     }
 
-    .intro-mobile{
+    .intro-mobile {
         display: none;
         margin-bottom: 0;
     }
 
-    .paragraph{
+    .paragraph {
         margin-bottom: 32px;
         width: 60%;
     }
 
-    .intro-container-para{
+    .intro-container-para {
         font-size: 1.6rem;
         padding-bottom: 30px;
         text-align: center;
     }
 
-    .link-container{
+    .link-container {
         display: grid;
         grid-template-columns: repeat(3, 250px);
         grid-column-gap: 60px;
@@ -64,7 +62,7 @@ export const StyledWrapper = styled.div`
         width: 100%;
     }
 
-    .project-link{
+    .project-link {
         border-radius: 8px;
         box-shadow: 0 5px #000;
         border: solid 2px black;
@@ -78,20 +76,20 @@ export const StyledWrapper = styled.div`
         text-decoration: none;
         width: 250px;
 
-        &:active{
+        &:active {
             background-color: #bbb;
             opacity: 0.7;
             box-shadow: 0 3px #000;
             transform: translateY(4px);
         }
 
-        &:hover{
+        &:hover {
             background-color: #bbb;
             opacity: 0.8;
             border-radius: 8px;
         }
 
-        &:focus{
+        &:focus {
             background-color: #bbb;
             box-shadow: 0 3px #000;
             opacity: 0.8;
@@ -104,7 +102,7 @@ export const StyledWrapper = styled.div`
 
     
 
-    .button{
+    .button {
         align-items: center;
         display: grid;
         font-size: 2rem;
@@ -113,25 +111,25 @@ export const StyledWrapper = styled.div`
         width: 100%;
     }
 
-    .fade-in{
+    .fade-in {
         animation: fade 1.2s ease-in;
     }
 
-    @keyframes fade{
+    @keyframes fade {
         0%{
             opacity: 0;
         }
     }
 
     @media (max-width: 1000px) {
-        .link-container{
+        .link-container {
             grid-template-columns: 1fr;
             grid-template-rows: repeat(3, 140px);
             grid-row-gap: 60px;
             justify-items: center;
         }
 
-        .project-link{
+        .project-link {
             height: 140px;
             width: 500px;
         }
@@ -140,31 +138,31 @@ export const StyledWrapper = styled.div`
     @media (max-width: 768px) {
         padding-bottom: 220px;
 
-        .intro-container{
+        .intro-container {
             margin-bottom: 0;
         }
 
-        .intro-pc{
+        .intro-pc {
             display: none;
         }
 
-        .intro-mobile{
+        .intro-mobile {
             display: block;
         }
 
-        .paragraph{
+        .paragraph {
             width: 70%;
         }
 
-        .intro-container-para{
+        .intro-container-para {
             font-size: 1.4rem;
         }
 
-        .link-container{
+        .link-container {
             grid-row-gap: 0;
         }
 
-        .project-link{
+        .project-link {
             height: 100px;
             width: 390px;
         }
@@ -175,20 +173,20 @@ export const StyledWrapper = styled.div`
         line-height: 1.8;
         padding-bottom: 340px;
 
-        h1{
+        h1 {
             font-size: 2.4rem;
         }
 
-        .paragraph{
+        .paragraph {
             width: 100%;
         }
 
-        .intro-container-para{
+        .intro-container-para {
             font-size: 1.1rem;
             width: 310px;
         }
 
-        .project-link{
+        .project-link {
             height: 100px;
             width: 250px;
         }

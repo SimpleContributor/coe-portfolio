@@ -18,9 +18,7 @@ export const StyledNav = styled.div`
     margin-left: auto;
     z-index: 10;
 
-
-
-    .logo-img{
+    .logo-img {
         height: 100px;
     }
 `;
@@ -36,16 +34,13 @@ export const BurgerStyles = css`
     width: 60px;
     z-index: 30;
 
-
     @media (max-width: 768px) {
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
-
-        
     }
 
-    div{
+    div {
         background-color: ${({ open }) => open ? '#000' : '#000'};
         border-radius: 10px;
         height: 8px;
@@ -57,7 +52,6 @@ export const BurgerStyles = css`
             transform: ${({ open }) => open ? 'rotate(45deg) translateX(25%)' : 'rotate(0)'};
         }
 
-        
         &:nth-child(2) {
             opacity: ${({ open }) => open ? '0' : '1'};
         }
@@ -78,7 +72,7 @@ export const UlStyles = css`
     list-style: none;
     margin-right: 24px;
 
-    .nav-links{
+    .nav-links {
         align-items: center;
         color: #000;
         display: grid;
@@ -87,7 +81,7 @@ export const UlStyles = css`
         text-decoration: none;
     }
 
-    .nav-links:hover{
+    .nav-links:hover {
         font-size: 1.9rem;
     }
 
@@ -124,11 +118,11 @@ export const UlStyles = css`
         }
     }
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
         transform: ${({ open }) => open ? 'translateX(70%) translateY(-10%)' : 'translateX(-60%) translateY(-10%)'};
     }
 
-    @media(max-width: 450px) {
+    @media (max-width: 450px) {
         transform: ${({ open }) => open ? 'translateX(55%) translateY(-10%)' : 'translateX(-60%) translateY(-10%)'};
     }
 `;
@@ -147,18 +141,18 @@ export const StyledFooter = styled.div`
     position: absolute;
     width: 100%;
 
-    .created-by{
+    .created-by {
         align-items: center;
         display: grid;
         margin-left: 20px;
     }
 
-    p{
+    p {
         font-size: 1.6rem;
         margin: 0;
     }
 
-    .social-links{
+    .social-links {
         align-items: center;
         display: grid;
         grid-template-columns: repeat(3, 100px);
@@ -168,56 +162,54 @@ export const StyledFooter = styled.div`
         margin-right: 60px;
     }
 
-    .social-links img{
+    .social-links img {
         width: 80px;
     }
 
-    @media (max-width: 1200px){
+    @media (max-width: 1200px) {
         grid-template-columns: 1fr 2fr;
 
-        .social-links{
+        .social-links {
             grid-column-gap: 120px;
         }
     }
 
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
         grid-template-columns: 1fr 3fr;
 
-        
-
-        p{
+        p {
             align-self: center;
             font-size: 1.2rem;
         }
 
-        .social-links{
+        .social-links {
             grid-column-gap: 80px;
             margin-right: 0;
         }
 
-        .social-links img{
+        .social-links img {
             width: 60px;
         }
     }
 
     @media (max-width: 600px) {
-        .social-links{
+        .social-links {
             grid-column-gap: 40px;
         }
     }
 
-    @media (max-width: 500px){
+    @media (max-width: 500px) {
         grid-template-columns: 1fr;
         padding: 16px 0;
 
-        .social-links{
+        .social-links {
             grid-column-gap: 20px;
             justify-self: center;
             margin-right: 0;
             
         }
 
-        .created-by p{
+        .created-by p {
             text-align: center;
         }
     }
