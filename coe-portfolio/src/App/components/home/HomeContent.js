@@ -66,8 +66,7 @@ class HomeContent extends Component {
                 animate: false
             })
         }
-    }
-        
+    }    
 }
 
 export default HomeContent;

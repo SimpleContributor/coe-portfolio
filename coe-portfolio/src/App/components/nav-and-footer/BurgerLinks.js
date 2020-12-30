@@ -5,10 +5,8 @@ import { BurgerStyles } from './style';
 
 const StyledBurger = styled.div`${BurgerStyles}`;
 
-
 const BurgerLinks = () => {
     const [open, setOpen] = useState(false);
-
     return (
         <>
             <StyledBurger open={open} onClick={() => setOpen(!open)}>

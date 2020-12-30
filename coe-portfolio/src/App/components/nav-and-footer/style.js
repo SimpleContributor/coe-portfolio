@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
 
-
 //// NAVIGATION.JS ////
 export const StyledNav = styled.div`
     align-items: center;

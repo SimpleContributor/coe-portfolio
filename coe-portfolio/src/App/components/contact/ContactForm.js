@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { FormContainer } from './contactStyles';
 
-
-
 class MessageForm extends Component {
     constructor(props) {
         super(props);
@@ -41,7 +39,6 @@ class MessageForm extends Component {
 
     render() {
         return (
-            
             <FormContainer>
                 <div className="contact-heading">
                       <h1>Want to contact me directly?</h1>
@@ -78,8 +75,7 @@ class MessageForm extends Component {
                          <button type="submit">Send Message</button>
                     </div>
                 </form>
-            </FormContainer>
-            
+            </FormContainer> 
         )
     }
 
@@ -94,9 +90,6 @@ class MessageForm extends Component {
     onMessageChange(event) {
         this.setState({message: event.target.value})
     }
-
-
-
 }
 
 export default MessageForm;

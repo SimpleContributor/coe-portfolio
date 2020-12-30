@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import HomeContent from './HomeContent';
-
 import { motion } from "framer-motion";
-
 import Navigation from '../nav-and-footer/Navigation';
+import HomeContent from './HomeContent';
 import Footer from '../nav-and-footer/Footer';
-
 import { StyledHome } from './homeStyle';
-
 
 class Home extends Component {
     render() {

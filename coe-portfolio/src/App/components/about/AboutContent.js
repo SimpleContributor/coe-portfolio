@@ -1,9 +1,8 @@
 import React from 'react';
+import LanguageTile from './LanguageTile';
 import BabyPhoto from '../Images/BabyPhoto.jpg';
 import languagePhotos from '../../objects/languageObject';
-import LanguageTile from './LanguageTile';
 import { AboutContainer } from './aboutStyles';
-
 
 const AboutContent = () => {
     const renderedList = languagePhotos.map((photo) => {

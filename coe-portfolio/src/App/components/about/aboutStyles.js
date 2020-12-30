@@ -7,7 +7,6 @@ export const StyledAbout = styled.div`
     text-align: center;
 `;
 
-
 //// ABOUTCONTENT.JS ////
 export const AboutContainer = styled.div`
     display: grid;
@@ -70,9 +69,6 @@ export const AboutContainer = styled.div`
         }
     }
 `;
-
-
-
 
 //// LANGUAGETILE.JS ////
 export const StyledLangTile = styled.div`

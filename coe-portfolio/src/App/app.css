@@ -28,5 +28,3 @@ body::-webkit-scrollbar-thumb {
     border-radius: 8px;       /* roundness of the scroll thumb */
     border: 3px solid black;  /* creates padding around scroll thumb */
 }
-
-

@@ -8,9 +8,6 @@ export const StyledHome = styled.div`
     width: auto;
 `;
 
-
-
-
 //// HOMECONTENT.JS ////
 export const StyledWrapper = styled.div`
     justify-items: center;
@@ -99,8 +96,6 @@ export const StyledWrapper = styled.div`
 
         transition: background-color 1s, box-shadow 0.3s, opacity 1s, transform 0.3s;
     }
-
-    
 
     .button {
         align-items: center;

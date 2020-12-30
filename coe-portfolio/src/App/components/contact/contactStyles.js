@@ -7,8 +7,6 @@ export const ContactWrapper = styled.div`
     width: auto;
 `;
 
-
-
 //// CONTACTFORM.JS ////
 export const FormContainer = styled.div`
     display: grid;
@@ -40,7 +38,6 @@ export const FormContainer = styled.div`
         margin-top: 0;
     }
 
-
     .contact-form {
         background-color: #aaa;
         border-radius: 10px;
@@ -59,7 +56,6 @@ export const FormContainer = styled.div`
     label {
         width: 100%;
     }
-
 
     input,
     textarea {
@@ -82,7 +78,6 @@ export const FormContainer = styled.div`
         height: 70%;
         resize: none;
     }
-
 
     button {
         align-self: end;
@@ -145,6 +140,7 @@ export const FormContainer = styled.div`
         .contact-heading {
             width: 320px;
         }
+        
         .contact-form {
             width: 280px;
         }

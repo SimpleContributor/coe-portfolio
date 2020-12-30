@@ -5,6 +5,10 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 const creds = require('./coe-portfolio/config');
 
+const port = process.env.PORT || 3000;
+const app = express();
+const buildPath = path.join(__dirname, 'coe-portfolio/build');
+
 var transport = {
     service: 'Gmail',
     port: 465,
@@ -52,24 +56,14 @@ router.post('/send', (req, res, next) => {
     })
 })
 
-
-
-
-const app = express();
-const buildPath = path.join(__dirname, 'coe-portfolio/build');
-
 app.use(express.static(buildPath));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/coe-portfolio/build/index.html'));
 });
 
-const port = process.env.PORT || 3000;
-
 app.use(cors());
 app.use(express.json());
 app.use('/', router);
 
 app.listen(port);
-
-console.log('App is listening on port ' + port);

@@ -5,7 +5,6 @@ import linkedin from '../Images/linkedin.png';
 import { StyledFooter } from './style';
 
 const Footer = () => {
-
     return (
         <>
             <StyledFooter>

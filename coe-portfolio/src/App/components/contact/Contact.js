@@ -1,13 +1,11 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 import { motion } from "framer-motion";
-
 import Navigation from '../nav-and-footer/Navigation';
+import ContactForm from './ContactForm';
 import Footer from '../nav-and-footer/Footer';
 import { ContactWrapper } from './contactStyles';
 
 const Contact = () => {
-
         return (
             <motion.div
                 initial={{ opacity: 0, y: "100%" }}
@@ -22,7 +20,6 @@ const Contact = () => {
                 <Footer />
             </motion.div>
         )
-    
 }
 
 export default Contact;

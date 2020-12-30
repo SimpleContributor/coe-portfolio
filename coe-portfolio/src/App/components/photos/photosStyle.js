@@ -37,7 +37,6 @@ export const ProjectContainer = styled.div`
     }
 `
 
-
 //// PHOTOTILE.JS ////
 export const StyledTile = styled.div`
     border-radius: 10px;

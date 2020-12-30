@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import AboutContent from './AboutContent';
 import { motion } from "framer-motion";
-
 import Navigation from '../nav-and-footer/Navigation';
+import AboutContent from './AboutContent';
 import Footer from '../nav-and-footer/Footer';
 import { StyledAbout } from './aboutStyles';
 
