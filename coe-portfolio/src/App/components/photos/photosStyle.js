@@ -8,11 +8,11 @@ export const ProjectsWrapper = styled.div`
     overflow-x: hidden;
     
     @media (max-width: 1200px) {
-        min-height: 2000px;
+        min-height: 2400px;
     }
 
     @media (max-width: 768px) {
-        min-height: 3700px;
+        min-height: 4100px;
     }
 `
 
@@ -28,12 +28,12 @@ export const ProjectContainer = styled.div`
 
     @media(max-width: 1200px) {
          grid-template-columns: repeat(2, 400px);
-         grid-template-rows: repeat(4, 400px);
+         grid-template-rows: repeat(5, 400px);
     }
         
     @media(max-width: 768px) {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 400px);
+        grid-template-rows: repeat(9, 400px);
     }
 `
 

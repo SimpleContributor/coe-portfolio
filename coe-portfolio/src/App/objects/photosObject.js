@@ -6,8 +6,17 @@ import GuessingGame from '../components/Images/Projects/JSGuessGame.png';
 import FCCDrumMachine from '../components/Images/Projects/FCCDrumMachine.png';
 import NodeWeatherApp from '../components/Images/Projects/NodeWeatherApp.png';
 import NMTaxCalc from '../components/Images/Projects/NMTaxCalculator.png';
+import ReactYoutube from '../components/Images/Projects/ReactYoutube.png';
 
 const projectPhotos = [
+    {
+        name: "React Mock YouTube",
+        id: 8,
+        src: ReactYoutube,
+        alt: "",
+        href: "https://simplecontributor.github.io/mock-youtube/"
+    },
+
     {
         name: "JavaScript NM Tax Calculator",
         id: 7,

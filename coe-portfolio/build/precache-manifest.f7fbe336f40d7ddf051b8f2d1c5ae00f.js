@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "452a5d4b6709b834aa1e0104bb5d1915",
+    "revision": "21310285e0212ea76e8830f85cd124db",
     "url": "/index.html"
   },
   {
-    "revision": "6f2a9618877ac152d071",
+    "revision": "54a037cea4ffe0e8e0df",
     "url": "/static/css/main.0b435fe7.chunk.css"
   },
   {
-    "revision": "eac8705e85d3bb2ca2c2",
-    "url": "/static/js/2.cca6cd25.chunk.js"
+    "revision": "a74720c5af8763c9a8ae",
+    "url": "/static/js/2.600c7afd.chunk.js"
   },
   {
     "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/static/js/2.cca6cd25.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.600c7afd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f2a9618877ac152d071",
-    "url": "/static/js/main.c73f6bf5.chunk.js"
+    "revision": "54a037cea4ffe0e8e0df",
+    "url": "/static/js/main.547ab857.chunk.js"
   },
   {
     "revision": "697826e0b7f446903264",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "05a3e30fdf60ebe9d00cf4725d44bd42",
     "url": "/static/media/React-icon.05a3e30f.svg"
+  },
+  {
+    "revision": "ff90dfa37d5e38c231e1418a75ee3710",
+    "url": "/static/media/ReactYoutube.ff90dfa3.png"
   },
   {
     "revision": "c26a73b45b9a801864f13edeb0aa2cfb",
