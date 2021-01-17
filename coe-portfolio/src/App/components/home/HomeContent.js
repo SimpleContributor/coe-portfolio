@@ -39,7 +39,7 @@ class HomeContent extends Component {
                         this.state.animate ? "link-container fade-in" : "link-container"
                     }
                 >
-                    <Link className="project-link" to="/photos">
+                    <Link className="project-link" to="/projects">
                         <div className="button">Projects</div>
                     </Link>
                     <Link className="project-link" to="/about">
