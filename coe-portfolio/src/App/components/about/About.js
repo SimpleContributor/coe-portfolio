@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { motion } from "framer-motion";
 import Navigation from '../nav-and-footer/Navigation';
 import AboutContent from './AboutContent';
 import Footer from '../nav-and-footer/Footer';
 import { StyledAbout } from './aboutStyles';
 
-class About extends Component {
-    render() {
+const About = () => {
         return (
             <motion.div
                 initial={{ opacity: 0, y: "100%" }}
@@ -21,7 +20,6 @@ class About extends Component {
                 <Footer />
             </motion.div>
         )
-    }
 }
 
 export default About;
